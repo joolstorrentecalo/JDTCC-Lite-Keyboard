@@ -13,11 +13,11 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.simplemobiletools.keyboard"
-        minSdk 23
+        applicationId "com.jtcstudios.keyboard"
+        minSdk 29
         targetSdk 33
-        versionCode 13
-        versionName "5.3.1"
+        versionCode 1
+        versionName "1.0.0"
         multiDexEnabled true
         setProperty("archivesBaseName", "keyboard")
         vectorDrawables.useSupportLibrary = true

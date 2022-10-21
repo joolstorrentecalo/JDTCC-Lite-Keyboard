@@ -49,7 +49,6 @@ class MainActivity : SimpleActivity() {
         main_toolbar.setOnMenuItemClickListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.settings -> launchSettings()
-                R.id.about -> launchAbout()
                 else -> return@setOnMenuItemClickListener false
             }
             return@setOnMenuItemClickListener true
@@ -60,19 +59,6 @@ class MainActivity : SimpleActivity() {
         hideKeyboard()
         startActivity(Intent(applicationContext, SettingsActivity::class.java))
     }
-
-    private fun launchAbout() {
-        val licenses = LICENSE_GSON
-
-        val faqItems = ArrayList<FAQItem>()
-        if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            faqItems.add(FAQItem(R.string.faq_2_title_commons, R.string.faq_2_text_commons))
-            faqItems.add(FAQItem(R.string.faq_6_title_commons, R.string.faq_6_text_commons))
-        }
-
-        startAboutActivity(R.string.app_name, licenses, BuildConfig.VERSION_NAME, faqItems, true)
-    }
-
     private fun updateChangeKeyboardColor() {
         val applyBackground = resources.getDrawable(R.drawable.button_background_rounded, theme) as RippleDrawable
         (applyBackground as LayerDrawable).findDrawableByLayerId(R.id.button_background_holder).applyColorFilter(getProperPrimaryColor())

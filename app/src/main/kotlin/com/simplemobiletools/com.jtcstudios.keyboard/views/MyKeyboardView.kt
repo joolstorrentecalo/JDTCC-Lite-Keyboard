@@ -34,7 +34,6 @@ import com.simplemobiletools.commons.helpers.ensureBackgroundThread
 import com.simplemobiletools.commons.helpers.isPiePlus
 import com.simplemobiletools.keyboard.R
 import com.simplemobiletools.keyboard.activities.ManageClipboardItemsActivity
-import com.simplemobiletools.keyboard.activities.SettingsActivity
 import com.simplemobiletools.keyboard.adapters.ClipsKeyboardAdapter
 import com.simplemobiletools.keyboard.adapters.EmojisAdapter
 import com.simplemobiletools.keyboard.extensions.*
