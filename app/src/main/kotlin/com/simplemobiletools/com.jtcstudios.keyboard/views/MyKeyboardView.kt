@@ -375,10 +375,7 @@ class MyKeyboardView @JvmOverloads constructor(context: Context, attrs: Attribut
             settings_cog.setOnLongClickListener { context.toast(R.string.settings); true; }
             settings_cog.setOnClickListener {
                 vibrateIfNeeded()
-                Intent(context, SettingsActivity::class.java).apply {
-                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                    context.startActivity(this)
-                }
+
             }
 
             pinned_clipboard_items.setOnLongClickListener { context.toast(R.string.clipboard); true; }
