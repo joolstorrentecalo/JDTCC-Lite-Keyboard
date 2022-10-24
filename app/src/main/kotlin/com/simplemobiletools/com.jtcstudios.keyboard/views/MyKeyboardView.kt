@@ -317,7 +317,7 @@ class MyKeyboardView @JvmOverloads constructor(context: Context, attrs: Attribut
                     setLinkTextColor(mTextColor)
                 }
 
-                settings_cog.applyColorFilter(mTextColor)
+
                 pinned_clipboard_items.applyColorFilter(mTextColor)
                 clipboard_clear.applyColorFilter(mTextColor)
             }
@@ -372,11 +372,7 @@ class MyKeyboardView @JvmOverloads constructor(context: Context, attrs: Attribut
         mEmojiPaletteHolder = keyboardHolder.emoji_palette_holder
 
         mToolbarHolder!!.apply {
-            settings_cog.setOnLongClickListener { context.toast(R.string.settings); true; }
-            settings_cog.setOnClickListener {
-                vibrateIfNeeded()
 
-            }
 
             pinned_clipboard_items.setOnLongClickListener { context.toast(R.string.clipboard); true; }
             pinned_clipboard_items.setOnClickListener {

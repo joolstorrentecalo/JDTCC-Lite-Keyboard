@@ -40,9 +40,7 @@ class MainActivity : SimpleActivity() {
                 }
             }
         }
-
         updateTextColors(main_nested_scrollview)
-        updateChangeKeyboardColor()
     }
 
     private fun setupOptionsMenu() {
@@ -54,16 +52,7 @@ class MainActivity : SimpleActivity() {
         }
     }
 
-    private fun launchSettings() {
-        hideKeyboard()
-        startActivity(Intent(applicationContext, SettingsActivity::class.java))
-    }
-    private fun updateChangeKeyboardColor() {
-        val applyBackground = resources.getDrawable(R.drawable.button_background_rounded, theme) as RippleDrawable
-        (applyBackground as LayerDrawable).findDrawableByLayerId(R.id.button_background_holder).applyColorFilter(getProperPrimaryColor())
-        change_keyboard.background = applyBackground
-        change_keyboard.setTextColor(getProperPrimaryColor().getContrastColor())
-    }
+
 
     private fun isKeyboardEnabled(): Boolean {
         val inputMethodManager = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
@@ -72,4 +61,8 @@ class MainActivity : SimpleActivity() {
             it.settingsActivity == SettingsActivity::class.java.canonicalName
         }
     }
+}
+
+class SettingsActivity {
+
 }

@@ -67,21 +67,9 @@
             android:padding="@dimen/small_margin"
             android:src="@drawable/ic_clipboard_vector"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/settings_cog"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/settings_cog"
-            android:layout_width="@dimen/toolbar_icon_height"
-            android:layout_height="@dimen/toolbar_icon_height"
-            android:layout_marginEnd="@dimen/medium_margin"
-            android:background="?android:attr/selectableItemBackgroundBorderless"
-            android:contentDescription="@string/settings"
-            android:padding="@dimen/small_margin"
-            android:src="@drawable/ic_settings_cog_vector"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+
 
         <ImageView
             android:id="@+id/top_keyboard_divider"

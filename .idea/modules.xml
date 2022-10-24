@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JT_Lite-Keyboard.iml" filepath="$PROJECT_DIR$/.idea/modules/JT_Lite-Keyboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JT_Lite-Keyboard.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JT_Lite-Keyboard.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JT_Lite-Keyboard.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JT_Lite-Keyboard.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JT_Lite-Keyboard.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JT_Lite-Keyboard.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JT_Lite-Keyboard.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JT_Lite-Keyboard.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JT-Lite-Keyboard.iml" filepath="$PROJECT_DIR$/.idea/modules/JT-Lite-Keyboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JT-Lite-Keyboard.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JT-Lite-Keyboard.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JT-Lite-Keyboard.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JT-Lite-Keyboard.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JT-Lite-Keyboard.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JT-Lite-Keyboard.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JT-Lite-Keyboard.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JT-Lite-Keyboard.app.unitTest.iml" />
     </modules>
   </component>
 </project>
